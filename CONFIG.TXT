@@ -1,0 +1,10 @@
+/ CONFIG FILE FOR FOAMBOARD (2022-02-02-A)
+
+/ PID CONSTANTS AND LIMITS (ZERO ALL K OR COMMENT OUT TO DISABLE)
+RollPID =   50,   0,   0		/ Roll Consts: Kp, Ki, Kd
+PtchPID =    0,   0,   0		/ Ptch Consts: Kp, Ki, Kd
+HeadPID =    0,   0,   0		/ Head Consts: Kp, Ki, Kd
+RollLim =  500, 500, 500		/ Roll Limits: Lp, Li, Ld
+PtchLim =  500, 500, 500		/ Ptch Limits: Lp, Li, Ld
+HeadLim =  500, 500, 500		/ Head Limits: Lp, Li, Ld
+
